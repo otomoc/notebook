@@ -18,9 +18,9 @@
 
 - 逻辑备份之exp
   - 表模式
-    ```bash
-    exp {username}/{password}@{dbname} OWNER={username} TABLES={tablename[,tablename]} FILE={filepath} [query=\"{querystring}\"];
-    ```
+  ```bash
+  exp {username}/{password}@{dbname} OWNER={username} TABLES={tablename[,tablename]} FILE={filepath} [query=\"{querystring}\"];
+  ```
   - 用户模式
   ```bash
   exp {username}/{password}@{dbname} OWNER={username} FILE={filepath};
